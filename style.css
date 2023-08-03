@@ -1,0 +1,273 @@
+
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    /* padding: 30px; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-inline: 150px;
+    /* padding-block: 10px; */
+}
+
+.main-container{
+    width: 100%;
+    height: auto;
+    background-color: gray;
+    /* padding: 50px; */
+    padding-inline: 160px;
+    padding-block: 10px;
+
+}
+
+.black-container{
+    width: 100%;
+    height: 620px;
+    background-color: black;
+  
+
+}
+
+.nav-bar{
+    width: 100%;
+    height: auto;
+    display: flex;
+    
+    justify-content: space-evenly;
+    padding-top: 20px;
+    
+}
+
+.nav-bar ul{
+    width: 60%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding-left: 45px;
+    
+  
+}
+
+.nav-bar ul li{
+    list-style: none;
+    color: white;
+    font-size: 15px;
+    font-weight: 300;
+}
+
+.nav-icon{
+
+    display: flex; 
+}
+
+.nav-icon li{
+    
+}
+
+.italian-section{
+width: 100%;
+height: auto;
+display: flex;
+align-items: center;
+justify-content: space-evenly;
+}
+
+.italian-text{
+display: flex;
+flex-direction: column;
+}
+
+.italian-text h2{
+    font-size: 42px;
+    font-weight: 300;
+color: white;
+}
+
+.italian-text h1{
+    font-size: 55px;
+    font-weight: 300;
+    color: white;
+    padding-bottom: 10px;
+}
+
+.italian-text p{
+    color: white;
+    font-size: 12px;
+    font-weight: 300;
+    padding-bottom: 20px;
+}
+
+.button-part{
+    display: flex;
+    align-items: center;
+    
+}
+
+.italian-text button{
+    width: 100px;
+    height: 40px;
+    border-radius: 20px;
+    border: none;
+    color: white;
+    background-color: orangered;
+}
+
+.italian-text h4{
+    color: white;
+    font-size: 22px;
+    padding-left: 20px;
+    font-weight: 400;
+}
+
+.italian-pic img{
+    width: 300px;
+}
+
+.yellow-box{
+width: 95%;
+height: 220px;
+background-color: yellow;
+display: flex;
+align-items: center;
+justify-content: space-evenly;
+border-radius: 30px;
+padding-inline: 20px;
+margin-inline: 20px;
+position: relative;
+}
+
+.sauce{
+    width: 100px;
+    height: 140px;
+    background-color: white;
+    margin-block: 40px;
+    border-radius: 15px;
+    display: flex;
+align-items: center;
+flex-direction: column;
+}
+
+.sauce img{
+    width: 60px;
+    padding-block: 10px;
+}
+
+.fried{
+    width: 100px;
+    height: 140px;
+    background-color: white;
+    margin-block: 40px;
+    border-radius: 15px;
+    display: flex;
+align-items: center;
+flex-direction: column;
+}
+
+.fried img{
+    width: 60px;
+    padding-block: 10px;
+}
+
+.pollo{
+    width: 100px;
+    height: 140px;
+    background-color: white;
+    margin-block: 40px;
+    border-radius: 15px;
+    display: flex;
+align-items: center;
+flex-direction: column;
+}
+
+.pollo img{
+    width: 80px;
+    padding-block: 10px;
+}
+
+.pho-ga{
+    width: 100px;
+    height: 140px;
+    background-color: white;
+    margin-block: 40px;
+    border-radius: 15px;
+    display: flex;
+align-items: center;
+flex-direction: column;
+}
+
+.pho-ga img{
+    width: 80px;
+    
+}
+
+.pasta{
+    width: 100px;
+    height: 140px;
+    background-color: white;
+    margin-block: 40px;
+    border-radius: 15px;
+    display: flex;
+align-items: center;
+flex-direction: column;
+}
+
+.pasta img{
+    width: 80px;
+    padding-block: 10px;
+}
+
+.sauce-thai{
+    width: 100px;
+    height: 140px;
+    background-color: white;
+    margin-block: 40px;
+    border-radius: 15px;
+    display: flex;
+align-items: center;
+flex-direction: column;
+}
+
+.sauce-thai img{
+    width: 60px;
+    padding-block: 10px;
+}
+/* 
+.icon{
+    display: flex;
+    align-items: center;
+} */
+
+.first-icon{
+    width: 22px;
+    height: 22px;
+    color: white;
+    font-size: 18px;
+    border-radius: 50px;
+    background-color: black;
+    position: absolute;
+    top: 100px;
+    left: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.second-icon{
+    width: 22px;
+    height: 22px;
+    color: white;
+    font-size: 18px;
+    border-radius: 50px;
+    background-color: black;
+    position: absolute;
+    top: 100px;
+    left: 685px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
